@@ -18,3 +18,16 @@ This project demonstrates how to deploy a web server in the cloud using Linux an
 ## Goal
 
 The goal of this project is to demonstrate cloud infrastructure and container deployment skills.
+## Run the Project
+
+Build the Docker image:
+
+docker build -t cloud-web-server .
+
+Run the container:
+
+docker run -p 80:80 cloud-web-server
+
+Then open in your browser:
+
+http://localhost
